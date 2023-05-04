@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+p, h1, h3, h4{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    color: #555555;
+    margin: 6px;
+}
+h1{font-size: 24px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+p{font-size: 14px;}
+a{
+    text-decoration: none;
+    color:#555555;
+}
+a img{
+    border: none;
+    float: right;
+    margin-left: 5px; /* ajusta el valor según sea necesario */
+}
+ul, ol{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+#scrollUp{
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+}
+#cajacabercera{
+    width: 100%;
+    border-bottom: 2px solid white;
+    height: 80px;
+    background: linear-gradient(to right, purple, rgb(240, 18, 144));
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+/* MENU */
+.menu{
+    width: 80%;
+}
+.menu ul{
+    display: flex;
+    align-items: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 78px;
+    padding: 0 10px;
+    color: #ff279e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.menu a i{
+    font-size: 35px;
+    padding: 0 5px;
+}
+.menu a:hover{
+    color: #eb7aff;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #f308cb;
+}
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+
+/*IMAGEN*/
+#imagen{
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1004px;
+    width: 100%;
+    position: relative;
+}
+
+/*LOGO*/
+#logo{
+    width: 20%;
+}
+/*TREN*/
+#tren{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+}
+
+/*CIUDAD*/
+#ciudad{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*H2*/
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 6px;
+    background: linear-gradient( purple, rgb(240, 18, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*BODY*/
+body{
+    margin: 0;
+    background: purple;
+}
+
+/*MAS*/
+.clientes{
+    background: #fff url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+
+/* ARTICULOS */
+.queofrecemos{
+    background: #d9d5d5;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+ 
+/* INICIO */
+.inicio{
+    background-color: #d9d5d5;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+
+/* CALENDARIO */
+.quehacemos{
+    background: #fff url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+
+/* FOOTER */
+#piepagina{
+    background: purple;
+    padding: 0 5px;
+}
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#piepagina p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 30px;
+}
+#piepagina ul{
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0 5px;
+}
+#piepagina ul li a{
+    width: 60px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    color: #c40052;
+    text-align: center;
+    font-size: 40px;
+}
